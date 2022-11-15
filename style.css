@@ -8,6 +8,7 @@ h1 {
     justify-content: center;
     display: flex; 
     font-family: fantasy;
+    text-align: center;
     background-color:darkslategrey;
     text-shadow: 2px 2px 5px rgb(26, 37, 10);
     border-radius: 15%;
@@ -16,12 +17,18 @@ h1 {
 }
 
 p {
-    justify-content: center;
-    display: flex;
+    justify-content: left;
+    display:flex;
     font-family: fantasy;
+    text-align: left;
     background-color:darkslategrey;
     text-shadow: 2px 2px 5px rgb(28, 41, 8);
     border-radius: 20%;
-    width: 1050px;
-    height: 100px;
+    width: 450px;
+    height: 300px;
+}
+
+tr:hover {
+    background-color: darkslategray;
+    empty-cells: show;
 }
