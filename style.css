@@ -1,12 +1,12 @@
 body {
     background-color: greenyellow;
 background-image: url(/Users/emmablaido/sei1031/projects/here-comes-the-sun/assets/project1img.webp);
-background-size: 100%;
+background-size: 110%;
 }
  
 h1 {
-    justify-content: center;
     display: flex; 
+    justify-content: center;
     font-family: fantasy;
     text-align: center;
     background-color:darkslategrey;
@@ -17,8 +17,6 @@ h1 {
 }
 
 p {
-    justify-content: left;
-    display:flex;
     font-family: fantasy;
     text-align: left;
     background-color:darkslategrey;
@@ -27,6 +25,11 @@ p {
     width: 450px;
     height: 300px;
 }
+ .gameinfo {
+    display: flex;
+    justify-content: left;
+ }
+
 
 tr:hover {
     background-color: darkslategray;

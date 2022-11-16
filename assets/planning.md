@@ -1,11 +1,18 @@
-alrighty boys lets go
-user will be greated when they open the web page 
-user will be shown the directions and asked if they are ready
-user will be presented with a promt to answer a question 
-if wrong user will loose one count
-if correct user will gain one count 
-three counts down and user looses the game!
-"YOU SUCK" or such will appear 
-make it to ten counts and user wins! 
-'I GUESS YOU DONT SUCK' or such will appear
-when ether outcome is reached no more questions will appear 
+alrighty boys lets go!
+user will be greated when they open the web page, 
+there will be a score keeping section, and a start buttun and a restart button.
+
+user will be shown the directions and asked if they are ready to start,
+when they click start it will signel a promt.
+
+that promt will present the user a question,
+if the answer is wrong, the user will be informed and the  user will loose one count, the "incorrect"  number on the scare keeper will go down by one.
+
+if the answer is correct the user will be shown a message, then a new promt with a new question will appear and the user will gain one count, and the "correct" count will increase by one in the score keeper, 
+
+if the incorrect count goes down three times and reaches 0 on the score keeper, then the 
+user looses the game! a message will appear and 
+and the game will be over, no more promts will be given. and maybe the garden will set on fire? 
+
+if the user gets ten right answers and the number on the scorekeeper reaches 10, then the user wins! a message will appear, the game will reset and no more promts will be given untill untill the user pushes start again
+
