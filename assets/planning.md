@@ -1,5 +1,7 @@
 alrighty boys lets go!
-user will be greated when they open the web page, 
+this is a lighthearted on the outside, but dark twist on the insdie triva game! think the fairy in "Labrinth" 
+
+The user will be greated when they open the web page, 
 there will be a score keeping section, and a start buttun and a restart button.
 
 user will be shown the directions and asked if they are ready to start,

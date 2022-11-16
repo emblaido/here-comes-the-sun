@@ -3,6 +3,8 @@ console.log("welcome")
 //these are my buttons
 let startBtnElement = document.getElementById("startBtn").addEventListener("click", function() {
 alert("lets get started!");
+prompt("what is a rose's favorite color?", "*hint* its the color of blood")
+
 //console.log(startBtnElement);
 });
 
@@ -19,8 +21,9 @@ console.log(winningElement)
 let loosingElemt = document.getElementById("loosingscore")
 console.log(loosingElemt)
 
-if (startBtn < "click") {
-prompt("what is a rose's favorite color?")
+//if (startBtn < "click") {
+//prompt("what is a rose's favorite color?")
+//}
 
 
-}
+
