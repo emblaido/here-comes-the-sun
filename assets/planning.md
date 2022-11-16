@@ -14,5 +14,5 @@ if the incorrect count goes down three times and reaches 0 on the score keeper, 
 user looses the game! a message will appear and 
 and the game will be over, no more promts will be given. and maybe the garden will set on fire? 
 
-if the user gets ten right answers and the number on the scorekeeper reaches 10, then the user wins! a message will appear, the game will reset and no more promts will be given untill untill the user pushes start again
+if the user gets ten right answers and the number on the scorekeeper reaches 5, then the user wins! a message will appear, the game will reset and no more promts will be given untill untill the user pushes start again
 

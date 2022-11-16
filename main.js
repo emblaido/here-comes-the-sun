@@ -3,12 +3,12 @@ console.log("welcome")
 //these are my buttons
 let startBtnElement = document.getElementById("startBtn").addEventListener("click", function() {
 alert("lets get started!");
-console.log(startBtnElement);
+//console.log(startBtnElement);
 });
 
 let restartBtnElement = document.getElementById("restartBtn").addEventListener("click", function() {
 alert("dont be shy...try again!");
-console.log(restartBtnElement);
+//console.log(restartBtnElement);
 });
     
  
@@ -19,4 +19,8 @@ console.log(winningElement)
 let loosingElemt = document.getElementById("loosingscore")
 console.log(loosingElemt)
 
-//
+if (startBtn < "click") {
+prompt("what is a rose's favorite color?")
+
+
+}
