@@ -15,7 +15,7 @@ h1 {
     width: 1000px;
     height: 60px;
 }
-
+/*
 p {
     font-family: fantasy;
     text-align: left;
@@ -34,4 +34,5 @@ p {
 tr:hover {
     background-color: darkslategray;
     empty-cells: show;
-}
+} 
+*/
