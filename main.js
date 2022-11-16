@@ -1,12 +1,17 @@
 console.log("welcome")
+//getting started, adding all of my ids into the global so i can access them.
+//these are my buttons
+let startBtnElement = document.getElementById("startBtn")
+console.log(startBtnElement)
 
-
-
-
-
-
+let restartBtnElement = document.getElementById("restartBtn")
+console.log(restartBtnElement)
+ 
+//these are my score trackers 
 let winningElement = document.getElementById("winningscore")
 console.log(winningElement)
 
 let loosingElemt = document.getElementById("loosingscore")
 console.log(loosingElemt)
+
+//
