@@ -1,7 +1,14 @@
 console.log("welcome")
 //getting started, adding all of my ids into the global so i can access them.
 //these are my buttons.
-let aButton = document.getElementById("optionA");
+const questionOne = {
+areSnails: 
+
+
+}
+
+
+let aButton = document.getElementById("optionA").addEventListener("click",)
 console.log(aButton);
 
 
@@ -19,7 +26,11 @@ let loosingElemt = document.getElementById("loosingscore")
 console.log(loosingElemt)
 
 
-const myQuestions = [ "ginkgo", "snail", "lily"];
-for (let i = 0; i<myQuestions.length; i++) {
-    console.log([i])
-}
+//const myQuestions = [ "ginkgo", "snail", "lily"];
+//for (let i = 0; i<myQuestions.length; i++) {
+    //console.log(myQuestions[i])
+
+   // }
+    
+
+
