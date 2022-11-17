@@ -1,36 +1,25 @@
 console.log("welcome")
 //getting started, adding all of my ids into the global so i can access them.
 //these are my buttons.
-const questionOne = {
-areSnails: 
-
-
+const quesionOne = {
+question1: "what are snails classified as?",
+    options: "optionA, optionB, optionC",
+right: "optionB"  
 }
+console.log(quesionOne)
+
+const questionTwo = {
+    question2: "is the lilly of the nile poisonous?",
+    options: "optionA, optionB, optionC",
+    reight: "optionC"
+}
+console.log(questionTwo)
 
 
-let aButton = document.getElementById("optionA").addEventListener("click",)
-console.log(aButton);
-
-
-let bButton = document.getElementById("optionB");
-console.log(bButton);
-
- let cButton = document.getElementById("optionC");
- console.log(cButton)
- 
-//these are my score trackers 
-let winningElement = document.getElementById("winningscore")
-console.log(winningElement)
-
-let loosingElemt = document.getElementById("loosingscore")
-console.log(loosingElemt)
-
-
-//const myQuestions = [ "ginkgo", "snail", "lily"];
-//for (let i = 0; i<myQuestions.length; i++) {
-    //console.log(myQuestions[i])
-
-   // }
-    
-
+const questionThree = {
+    question3: "what is the Ginkgo Biloba",
+    options: "optionA, optionB, optionC",
+     right: "optionA, optionB, optionC",
+}
+console.log(questionThree)
 
