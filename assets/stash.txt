@@ -25,3 +25,14 @@ console.log(loosingElemt)
 
    // }
     
+
+    const score = 0;
+for (let i = 0; i<questions.length; i++){
+    const response = (questions[i].promt);
+if(response == questions[i].answer) {
+print("correct!")
+}else{
+    print("wrong!")
+}
+
+}
