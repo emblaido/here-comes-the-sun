@@ -36,3 +36,23 @@ print("correct!")
 }
 
 }
+
+my array 
+const questionsAry =  [ 
+    {
+question1: "what are snails classified as?",
+    options: ["option A", "option B", "option C"],
+right: "optionC"  
+},
+ {
+    question2: "is the lilly of the nile poisonous?",
+    options: "optionA, optionB, optionC",
+    right: "optionB"
+},
+{
+
+    question3: "what is the Ginkgo Biloba",
+    options: "optionA, optionB, optionC",
+     right: "optionA, optionC",
+}
+]
