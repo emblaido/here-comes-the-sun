@@ -1,17 +1,14 @@
 
 //getting started, adding all of my ids into the global so i can access them.
 
-// answer choices
+// my buttons
 let aButton = document.getElementById("optionA");
-console.log(aButton);
 aButton.addEventListener("click", selectAnswer)
 
 let bButton = document.getElementById("optionB");
-console.log(bButton);
 bButton.addEventListener("click", selectAnswer)
 
  let cButton = document.getElementById("optionC");
- console.log(cButton)
 cButton.addEventListener("click", selectAnswer)
 
 let correct = 0;
@@ -81,83 +78,40 @@ function selectAnswer (evt) {
             questionSnail.style.display = "none";
      
         }      
-        question = question + 1;
+        return endGame()
         
     }
         
 }
 
+function endGame() {
+    if (correct === 2 || correct === 3 ) {
+    let winMessage = document.getElementById("win")
+    winMessage.style.display = "block";
+    }else{ 
+        incorrect === 2
+        let looseMessage = document.getElementById("loose")
+        looseMessage.style.display = "block";
+       
+    }
+}
 
 
-// assign correct asnswer (aButton.innerText)
-        // compare them (if statement)
-        // if they are the same 
-            //correct + 1 
-            // question + 1 
-            // change dispaly none question 1 
-            // change display block question 2 
-        // else 
-            // incorrect + 1 
-            // question + 1 
-            // change dispaly none question 1 
-            // change display block question 2 
-    // if answer is the same as the correct answer 
-        // display choson button color as green
-        // display current question to none 
-        // display block next question
-        // increase score by one 
-    // else 
-        //display chosen button color as red
-        //display the correct button color as green 
-        // display current question to none 
-        // display block next question 
-
-
-
-
-// questions
+// my P tag id's and their displays
 let questionSnail = document.getElementById("snail")
 questionSnail.style.display = "block";
 
 let questionLily = document.getElementById("lily")
 questionLily.style.display = "none";
 
-const questionKinkgo = document.getElementById('Kinkgo')
+let questionKinkgo = document.getElementById('Kinkgo')
 questionKinkgo.style.display = "none";
 
+let winMessage = document.getElementById("win")
+winMessage.style.display = "none";
 
-//these are my questions, i am attempting to to make it orderly 
-
-
-
-
- const question1 = {question: "what are snails classified as?",
-    options: ["option A", "option B", "option C"],
-     right: "optionC"  
-}
-
-
-
-//display question 1 and answer choices with associated buttons
-// listen to the buttons 
-// if correct button is selected then 
-    // display correct answer blurb
-    // increase score by one 
-// else 
-    // display wrong answer blurb 
-
-// display question 2 
-// if correct button is selected then 
-    // display correct answer blurb
-    // increase score by one 
-// else 
-    // display wrong answer blurb 
-// display question 3 
-// if correct button is selected then 
-    // display correct answer blurb
-    // increase score by one 
-// else 
-    // display wrong answer blurb 
+let looseMessage = document.getElementById("loose")
+looseMessage.style.display = "none";
 
 //display end game screen 
 //if score >= 2 
@@ -166,15 +120,6 @@ questionKinkgo.style.display = "none";
     // display lose message 
     
  
-//      const question2 = [{ "is the lilly of the nile poisonous?",
-//     options: ["optionA", "optionB", "optionC"],
-//     right: "optionB"
-// }]
-
-//    const question3 = [{ "what is the Ginkgo Biloba",
-//     options: ["optionA, optionB, optionC"],
-//      right: "optionA, optionC",
-//     }]
 
 
 
