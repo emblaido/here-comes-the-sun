@@ -18,3 +18,29 @@ and the game will be over, no more promts will be given. and maybe the garden wi
 
 if the user gets ten right answers and the number on the scorekeeper reaches 5, then the user wins! a message will appear, the game will reset and no more promts will be given untill untill the user pushes start again
 
+//display question 1 and answer choices with associated buttons
+// listen to the buttons 
+// if correct button is selected then 
+    // display correct answer blurb
+    // increase score by one 
+// else 
+    // display wrong answer blurb 
+
+// display question 2 
+// if correct button is selected then 
+    // display correct answer blurb
+    // increase score by one 
+// else 
+    // display wrong answer blurb 
+// display question 3 
+// if correct button is selected then 
+    // display correct answer blurb
+    // increase score by one 
+// else 
+    // display wrong answer blurb 
+
+//display end game screen 
+//if score >= 2 
+    // display win message
+// else 
+    // display lose message 

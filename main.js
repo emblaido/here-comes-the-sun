@@ -1,7 +1,5 @@
-console.log("welcome")
 
 //getting started, adding all of my ids into the global so i can access them.
-// these are my question id's that are hiddin and will be triggerd 
 
 // answer choices
 let aButton = document.getElementById("optionA");
@@ -22,32 +20,76 @@ let question = 1;
 let correctAnswer = 'Option C';
 let userAnswer = ''; 
 let correctAnswer2 = "Option B";
-//let correctAnswer3 = A or C 
+let correctAnswer3 = "Option A";
 
 
 function selectAnswer (evt) {
-    console.log(evt.target.innerText)
     userAnswer = evt.target.innerText
     if (question === 1) {
-        console.log("hit - if question = 1");
         if (userAnswer === correctAnswer) {
-            document.getElementById("winningscore").innerHTML = 1
+            correct = correct + 1; 
+            document.getElementById("winningscore").innerHTML = correct
             let questionSnail = document.getElementById("snail")
-    questionSnail.style.display = "none";
-    let questionLily = document.getElementById("lily")
-    questionLily.style.display = "block";
-
+            questionSnail.style.display = "none";
+            let questionLily = document.getElementById("lily")
+            questionLily.style.display = "block";
         } else {         
-             document.getElementById("loosingscore").innerHTML = 1
-        let questionLily = document.getElementById("lily")
-         questionLily.style.display = "block";
-         let questionSnail = document.getElementById("snail")
-          questionSnail.style.display = "none";
-
+            incorrect = incorrect + 1; 
+            document.getElementById("loosingscore").innerHTML = incorrect
+            let questionLily = document.getElementById("lily")
+            questionLily.style.display = "block";
+            let questionSnail = document.getElementById("snail")
+            questionSnail.style.display = "none";
+            
         }
+        question = question + 1;
+        
     }
+    
+    else if (question === 2) {
+        if (userAnswer === correctAnswer2) {
+            correct = correct + 1; 
+            document.getElementById("winningscore").innerHTML = correct;
+            let questionLily = document.getElementById("lily")
+            questionLily.style.display = "none";
+            const questionKinkgo = document.getElementById('Kinkgo')
+            questionKinkgo.style.display = "block";
+        } else {         
+            incorrect = incorrect + 1;
+            document.getElementById("loosingscore").innerHTML  = incorrect;
+            let questionLily = document.getElementById("lily")
+            questionLily.style.display = "none";
+            let questionSnail = document.getElementById("Kinkgo")
+            questionSnail.style.display = "block";
+     
+        }  
+        question = question + 1;
+        
+        
+        
+    }
+    else if (question === 3) {
+        if (userAnswer === correctAnswer3) {
+            correct = correct + 1; 
+            document.getElementById("winningscore").innerHTML = correct;
+            const questionKinkgo = document.getElementById('Kinkgo')
+            questionKinkgo.style.display = "none";
+        } else {         
+            incorrect = incorrect + 1;
+            document.getElementById("loosingscore").innerHTML  = incorrect;
+            let questionSnail = document.getElementById("Kinkgo")
+            questionSnail.style.display = "none";
+     
+        }      
+        question = question + 1;
+        
+    }
+        
 }
-        // assign correct asnswer (aButton.innerText)
+
+
+
+// assign correct asnswer (aButton.innerText)
         // compare them (if statement)
         // if they are the same 
             //correct + 1 
@@ -77,15 +119,6 @@ function selectAnswer (evt) {
 let questionSnail = document.getElementById("snail")
 questionSnail.style.display = "block";
 
-
-// if correct button is selected then 
-    // display correct answer blurb
-    // increase score by one 
-// else 
-    // display wrong answer blurb 
-
-
-
 let questionLily = document.getElementById("lily")
 questionLily.style.display = "none";
 
@@ -93,13 +126,12 @@ const questionKinkgo = document.getElementById('Kinkgo')
 questionKinkgo.style.display = "none";
 
 
-
 //these are my questions, i am attempting to to make it orderly 
 
 
 
 
-   const question1 = {question: "what are snails classified as?",
+ const question1 = {question: "what are snails classified as?",
     options: ["option A", "option B", "option C"],
      right: "optionC"  
 }
