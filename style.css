@@ -13,14 +13,16 @@ display: flex;
 justify-content: center;
 font-family: fantasy;
 text-align: center;
-text-shadow: 2px 2px 5px rgb(255, 255, 255);
+-webkit-text-fill-color: aliceblue;
+text-shadow: 2px 2px 5px rgb(7, 0, 0);
 
 }
 
 p {
 font-family: fantasy;
+-webkit-text-fill-color: aliceblue;
 text-align: center;
-text-shadow: 2px 2px 5px rgb(255, 255, 255);
+text-shadow: 2px 2px 5px rgb(7, 0, 0);
 font-size: x-large
 }
 
