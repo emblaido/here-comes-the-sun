@@ -19,23 +19,34 @@ cButton.addEventListener("click", selectAnswer)
 let correct = 0;
 let incorrect = 0;
 let question = 1; 
-let correctAnswer= '';
+let correctAnswer = 'Option C';
 let userAnswer = ''; 
-// let correctAnswer2 = "Option B"
-// let correctAnswer3 = A or C 
+let correctAnswer2 = "Option B";
+//let correctAnswer3 = A or C 
 
 
 function selectAnswer (evt) {
     console.log(evt.target.innerText)
-    console.log(aButton.innerText);
     userAnswer = evt.target.innerText
     if (question === 1) {
-        document.getElementById("winningscore").innerHTML = 1
-        let questionSnail = document.getElementById("snail")
-questionSnail.style.display = "none";
-let questionLily = document.getElementById("lily")
-questionLily.style.display = "block";
+        console.log("hit - if question = 1");
+        if (userAnswer === correctAnswer) {
+            document.getElementById("winningscore").innerHTML = 1
+            let questionSnail = document.getElementById("snail")
+    questionSnail.style.display = "none";
+    let questionLily = document.getElementById("lily")
+    questionLily.style.display = "block";
 
+        } else {         
+             document.getElementById("loosingscore").innerHTML = 1
+        let questionLily = document.getElementById("lily")
+         questionLily.style.display = "block";
+         let questionSnail = document.getElementById("snail")
+          questionSnail.style.display = "none";
+
+        }
+    }
+}
         // assign correct asnswer (aButton.innerText)
         // compare them (if statement)
         // if they are the same 
@@ -48,16 +59,6 @@ questionLily.style.display = "block";
             // question + 1 
             // change dispaly none question 1 
             // change display block question 2 
-    } else if (question === 2) { 
-
-    }else {
-    
-    }
-
-
-
-}
-
     // if answer is the same as the correct answer 
         // display choson button color as green
         // display current question to none 
@@ -96,22 +97,7 @@ questionKinkgo.style.display = "none";
 //these are my questions, i am attempting to to make it orderly 
 
 
-// answer choices
 
-//here im trying to make my code take in the options and the 
-//answer givin, and return true or false.
-
-
-
-
-//function updateButton (query){
-    //aButton.textContent = query.options[0]
-   // bButton.textContent = query.options[1]
-    //cButton.textContent = query.options[2]
-//}
-
-//const questionsAry =  [ 
-    //{
 
    const question1 = {question: "what are snails classified as?",
     options: ["option A", "option B", "option C"],
@@ -158,16 +144,7 @@ questionKinkgo.style.display = "none";
 //      right: "optionA, optionC",
 //     }]
 
-//console.log(questions)
 
-//updateButton(questionsAry[0])
-
-
-
-// function makeSelection (text) {
-//     console.log(text)
-//     checkAnswer(question1, text)
-// }
 
 
 

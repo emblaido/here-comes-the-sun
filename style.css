@@ -1,7 +1,9 @@
+img {
+margin: auto;
+
+}
 body {
     background-color: greenyellow;
-background-image: url(/Users/emmablaido/sei1031/projects/here-comes-the-sun/assets/project1img.webp);
-background-size: 110%;
 }
  
 h1 {

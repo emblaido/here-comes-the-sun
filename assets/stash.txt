@@ -56,3 +56,13 @@ right: "optionC"
      right: "optionA, optionC",
 }
 ]
+
+questionsAry //function updateButton (query){
+    //aButton.textContent = query.options[0]
+   // bButton.textContent = query.options[1]
+    //cButton.textContent = query.options[2]
+//}
+
+//const questionsAry =  [ 
+    //{
+        //updateButton(questionsAry[0])
