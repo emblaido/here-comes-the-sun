@@ -107,3 +107,7 @@ const question2 = [{ "is the lilly of the nile poisonous?",
     options: ["optionA, optionB, optionC"],
      right: "optionA, optionC",
     }]
+
+      border-radius: 15%;
+    width: 1000px;
+    height: 60px;

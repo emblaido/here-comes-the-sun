@@ -1,40 +1,47 @@
-img {
-margin: auto;
+
+body {
+background-image: url(https://preview.redd.it/zbcfsv2skfk61.png?width=960&crop=smart&auto=webp&s=175a1ff68dbee831e56a6feb92b6a3946191f0f6);
+background-size: 110%;
 
 }
-body {
-    background-color: greenyellow;
-}
+
+
+
  
 h1 {
-    display: flex; 
-    justify-content: center;
-    font-family: fantasy;
-    text-align: center;
-    background-color:darkslategrey;
-    text-shadow: 2px 2px 5px rgb(26, 37, 10);
-    border-radius: 15%;
-    width: 1000px;
-    height: 60px;
+display: flex; 
+justify-content: center;
+font-family: fantasy;
+text-align: center;
+text-shadow: 2px 2px 5px rgb(255, 255, 255);
+
 }
-/*
+
 p {
-    font-family: fantasy;
-    text-align: left;
-    background-color:darkslategrey;
-    text-shadow: 2px 2px 5px rgb(28, 41, 8);
-    border-radius: 20%;
-    width: 450px;
-    height: 300px;
+font-family: fantasy;
+text-align: center;
+text-shadow: 2px 2px 5px rgb(255, 255, 255);
+font-size: x-large
 }
- .gameinfo {
-    display: flex;
-    justify-content: left;
- }
 
 
 tr:hover {
-    background-color: darkslategray;
-    empty-cells: show;
+background-color: darkslategray;
+empty-cells: show;
 } 
-*/
+
+
+#buttons {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: space-between;
+
+}
+
+#score {
+display: flex;
+justify-content: center;
+align-items: flex-end;
+
+}
